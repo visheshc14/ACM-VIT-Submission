@@ -8,7 +8,7 @@ from sklearn.svm import SVC
 from sklearn.neighbors import KNeighborsClassifier 
 from sklearn.ensemble import RandomForestClassifier
 
-filename = 'BBC.csv'
+filename = 'Bike_Data.csv'
 dataframe = read_csv(filename) 
 
 array = dataframe.values
@@ -29,9 +29,4 @@ print("Accuracy: %.3f%%") % (result*100.0)
 
     Accuracy: 78.164%
 
-## References 
-[https://github.com/Sharp-Data/Predicting-Bike-Rentals/blob/master/PBR.ipynb](https://github.com/Sharp-Data/Predicting-Bike-Rentals/blob/master/PBR.ipynb)
 
-[https://towardsdatascience.com/predicting-no-of-bike-share-users-machine-learning-data-visualization-project-using-r-71bc1b9a7495](https://towardsdatascience.com/predicting-no-of-bike-share-users-machine-learning-data-visualization-project-using-r-71bc1b9a7495)
-
-[https://scikit-learn.org/stable/tutorial/machine_learning_map/](https://scikit-learn.org/stable/tutorial/machine_learning_map/)
